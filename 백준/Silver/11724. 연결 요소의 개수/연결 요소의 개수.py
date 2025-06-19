@@ -1,5 +1,5 @@
 import sys
-sys.setrecursionlimit(10**6)
+sys.setrecursionlimit(10**6) # 재귀 깊이 제한 확장
 
 def dfs(graph, v, visited):
     visited[v] = True
@@ -20,8 +20,8 @@ for _ in range(m):
     graph[x].append(y)
     graph[y].append(x)
 
+# 연결 요소 개수
 count = 0
-
 for v in range(1, n+1):
     if not visited[v]:
         dfs(graph, v, visited)
