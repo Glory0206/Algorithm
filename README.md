@@ -1,2 +1,6 @@
 # Algorithm
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+
+# Algorithm Study
+
+스터디 진행 상황은 아래 링크에서 확인할 수 있습니다.
+https://momomanager.com:20000
