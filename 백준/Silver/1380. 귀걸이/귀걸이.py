@@ -1,5 +1,3 @@
-from collections import Counter
-
 turn = 1
 
 while True:
@@ -21,5 +19,5 @@ while True:
     if count % 2 != 0:
       print(f"{turn} {students[num]}")
       break
-      
+
   turn += 1
