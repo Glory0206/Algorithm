@@ -1,11 +1,4 @@
-cm = {
-  '0' : 4,
-  '1' : 2,
-
-}
-
-for i in range(2, 10):
-    cm[str(i)] = 3
+cm = {'0': 4, '1': 2} | {str(i): 3 for i in range(2, 10)}
 
 while True:
   result = 0
