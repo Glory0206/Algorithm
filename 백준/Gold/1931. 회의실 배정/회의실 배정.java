@@ -34,9 +34,10 @@ public class Main {
             int getStart = list.get(i)[0];
             int getEnd = list.get(i)[1];
 
+            // 새로 꺼낸 회의의 시작 시간이 이전 회의의 끝 시간 이상일 경우, 새로운 회의 시작 가능
             if(getStart >= temp){
                 count++;
-                temp = getEnd;
+                temp = getEnd; // 끝나는 시간 새로이 갱신(다음으로 회의 종료 시간이 빠른 회의)
             }
         }
         System.out.println(count);
